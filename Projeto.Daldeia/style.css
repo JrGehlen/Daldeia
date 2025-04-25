@@ -29,6 +29,7 @@ header {
     background-color: var(--cor5);
     margin: -7px;
     padding-left: 20px ;
+    border: 2px solid var(--cor4);
 }    
 
 header h1 {
@@ -37,6 +38,17 @@ header h1 {
     padding-left: auto;
     
 }
-
+.espaço{
+    border: 2px solid var(--cor5);
+    width: 80px;
+    height: 300px;
+    display: inline-flex;
+}
+#e1 {
+    background-color: #B1BF41;
+}
+#e2 {
+    background-color: #C2F2E5;
+}
       
  
