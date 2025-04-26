@@ -16,27 +16,43 @@ body{
  }
 
  h1 
-    {
+    {   
+        font-size: 3em;
+        text-shadow: 4px 4px 8px #000000;
         font-family: 'Vollkorn', serif;
         font-optical-sizing: auto;
         font-weight: normal;
         font-style: normal;
         color: var(--cor4);
+        margin: auto;
       }
 
 header {
-    display: block;
-    background-color: var(--cor5);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-image: linear-gradient(to left, #000000 , #0E593e );
     margin: -7px;
     padding-left: 20px ;
     border: 2px solid var(--cor4);
+    box-shadow: 2px 2px 2px #0E593E;
+    height: 250px;
 }    
 
 header h1 {
     text-align: justify;
     display: inline;
     padding-left: auto;
-    
+}
+nav a {
+    color: var(--cor4);
+    background-color: var(--cor5);
+    font-size: 1.5em;
+    display: inline-flex;
+    margin-left: 10px;
+    margin-top: -5px;
+    border: 1px solid #000000;
+    padding: 5px;
 }
 .espaço{
     border: 2px solid var(--cor5);
@@ -46,9 +62,13 @@ header h1 {
 }
 #e1 {
     background-color: #B1BF41;
+    margin-left: 850px;
 }
 #e2 {
     background-color: #C2F2E5;
+}
+#e3 {
+    background-color: #02734A;
 }
       
  
