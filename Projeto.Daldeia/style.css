@@ -11,6 +11,7 @@
     --cor3:#038C4C;
     --cor4:#B1BF41;
     --cor5:#000000; 
+    --cor6:#ffffff;
 }
 
 body{
@@ -20,7 +21,7 @@ body{
  h1 
     {   
         font-size: 3em;
-        text-shadow: 4px 4px 8px #000000;
+        text-shadow: 4px 4px 5px #000000;
         /*font-family: 'Vollkorn', serif;*/
         font-family: "Boldonse", system-ui;
         font-optical-sizing: auto;
@@ -38,7 +39,7 @@ header {
     margin: -7px;
     padding-left: 20px ;
     border: 2px solid var(--cor4);
-    box-shadow: 2px 2px 2px #0E593E;
+    box-shadow: 2px 2px 2px #000000;
     height: 250px;
 }    
 
@@ -54,7 +55,7 @@ nav a {
     display: inline-flex;
     margin-left: 10px;
     margin-top: -5px;
-    border: 1px solid #000000;
+    border: 1px solid #B1BF41;
     padding: 5px;
     text-decoration: none;
 }
