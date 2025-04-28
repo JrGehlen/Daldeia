@@ -18,6 +18,8 @@ body{
     background-color: var(--cor3);
  }
 
+
+
  h1 
     {   
         font-size: 3em;
@@ -40,15 +42,16 @@ header {
     padding-left: 20px ;
     border: 2px solid var(--cor4);
     box-shadow: 2px 2px 2px #000000;
-    height: 250px;
+    height: 280px;
 }    
 
 header h1 {
     text-align: justify;
     display: inline;
     padding-left: auto;
+    
 }
-nav a {
+body > nav a {
     color: var(--cor4);
     background-color: var(--cor5);
     font-size: 1.5em;
@@ -59,27 +62,13 @@ nav a {
     padding: 5px;
     text-decoration: none;
 }
-.espaço{
-    border: 2px solid var(--cor5);
-    width: 77px;
-    height: 300px;
-    display: inline-flex;
+ nav > div a {
+    width: 100px;
+    height: 100px;
+    margin-left: 700px;
+    margin-top: -60px;
+    border-radius: 50%;
 }
-#e1 {
-    background-color: #B1BF41;
-    margin-left: 850px;
-}
-#e2 {
-    background-color: #C2F2E5;
-}
-#e3 {
-    background-color: #02734A;
-}
-#jiu-jitsu {
-    border: 2px solid var(--cor5);
-    width: 80px;
-    height: 300px;
-    display: inline-flex;
-}
+
       
  
